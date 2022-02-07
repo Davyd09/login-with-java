@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title></title> 
+	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+	<link rel="stylesheet" href="estilos.css">
+	
+
+
+	<script type="text/javascript">
+		function validar()
+		{
+			var usuario = document.getElementById("usuario").value;
+			var Contraseña = document.getElementById("pass").value;	
+
+			if(usuario == "abc" && Contraseña == "123")
+			{
+				window.location.replace("https://lust.ga");
+			}
+			else
+			{
+
+
+
+
+				if(usuario == "xyz" && Contraseña == "123")
+			    {
+				    window.location.replace("https://lust.ga");
+			    }
+			    else
+			    {
+			    	alert("Verifique sus credenciales");
+			    }
+
+
+
+			}
+		}
+
+
+	</script>
+
+
+
+
+</head>  
+<body>
+  
+
+
+
+    
+
+        <form class="formulario">
+            <h1>Iniciar Sesion</h1>
+        <div class="contenedor">
+
+
+
+			<div class="input-contenedor"><i class="fas fa-envelope icon"></i>
+                <input type="text" placeholder="Username" name="usuario" id="usuario">
+			</div>
+
+
+			<div class="input-contenedor"><i class="fas fa-key icon"></i>
+				<input type="password" placeholder="Contraseña" name="pass" id="pass"></td>
+			</div>
+
+
+			<td colspan="2"><input class="button" type="button" name="btnVerifivaca" id="btnVerifica" onclick="validar()" value="verificar" style = "width: 100%"> </td>
+
+	
+
+
+        <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
+        <p>¿No tienes una cuenta? <a class="link" href="#">Registrate </a></p>
+
+
+
+    </div>  </form>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
